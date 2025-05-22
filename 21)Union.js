@@ -1,5 +1,5 @@
 function FindUnion(arr1,arr2,j,res){
-    if(j==arr1.length-1){
+    if(j==arr1.length){
         return res
     }
     if(checkExists(arr2,arr2.length-1,arr1[j])){
